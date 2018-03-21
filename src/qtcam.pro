@@ -96,6 +96,7 @@ LIBS += -lv4l2 -lv4lconvert \
 
 QMAKE_CFLAGS_THREAD = -D__STDC_CONSTANT_MACROS      #For Ubuntu 12.04 compilation
 QMAKE_CXXFLAGS_THREAD = -D__STDC_CONSTANT_MACROS    #For Ubuntu 12.04 compilation
+QMAKE_CFLAGS_ISYSTEM =
 
 OTHER_FILES += \
     qml/qtcam/Views/qtcam.qml
